@@ -38,6 +38,13 @@
   engine:
     default: 'WebKit'
 
+# Baidu
+- regex: 'baiduboxapp(?:/(\d+[\.\d]+))?'
+  name: 'Baidu Box App'
+  version: '$1'
+  engine:
+    default: 'WebKit'
+
 #SailfishBrowser
 - regex: 'SailfishBrowser(?:/(\d+[\.\d]+))?'
   name: 'Sailfish Browser'
